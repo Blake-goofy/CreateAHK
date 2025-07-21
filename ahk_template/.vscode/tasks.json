@@ -1,0 +1,23 @@
+// .vscode/tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+    "label": "Toggle AHK Script",
+    "type": "shell",
+    "command": "dir\\ahk_template\\.vscode\\toggle_ahk.bat",
+    "args": ["${file}"],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+    },
+    "problemMatcher": []
+    }
+  ]
+}
